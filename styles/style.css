@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+navbar {
+    display: flex;
+    justify-content: space-between ;
+    margin: 1%;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+}
+
+.linkList {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 20%
+
+}
+
+.linkList > li {
+    padding: 1% 1%;
+    font-size: 1.2em
+    
+}
+
+.introduction {
+    height: 1000px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content:center;
+    align-content: center;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.introduction p {
+    font-size: 1.5em;
+    width: 35%;
+    text-align:center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    margin: 5% 0;
+}
+
+#whatsOn {
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration-line: underline;
+    text-decoration-color:#00B172 ;
+    text-underline-offset: 10px;
+    margin-top: 5%;
+
+}
+
+.contentItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contentItem > h4{
+    font-size: 1.8em;
+    color: #00B172;
+    margin: 0 0 1% 0;
+}
+
+.contentItem > p {
+    color: #1a1a1a;
+    font-size: 1.5em;
+    width: 40%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 1% 0;
+}
+
+.contentItem img {
+    width: 25%;
+    margin: 0 0 1% 0
+}
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00B172;
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bottom h2 {
+    font-size: 2.5em;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+}
