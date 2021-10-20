@@ -109,16 +109,47 @@ h1 {
     justify-content: space-around;
     background-color: #00B172;
     color: white;
+    padding: 3% 2%;
 }
 
 .info {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-around;
+    padding: 1% 1% 1% 5%
 }
 
 .bottom h2 {
     font-size: 2.5em;
     text-decoration-line: underline;
     text-underline-offset: 10px;
+}
+
+.infoItem > h5 {
+    font-size: 1.9em;
+}
+
+.infoItem > p {
+    width: 35%;
+    font-size: 1.4em;
+}
+
+#imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 4% 0 0 10%;
+}
+
+.bottom img {
+    width: 80%;
+
+}
+
+#spotify {
+    width: 10%;
+    position: absolute;
+    margin: 20% 0 0 0;
 }
