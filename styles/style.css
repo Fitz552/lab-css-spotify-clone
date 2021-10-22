@@ -21,6 +21,7 @@ navbar {
 .logo {
     width: 10%;
     height: auto;
+    object-fit:contain;
 }
 
 .linkList {
